@@ -11,7 +11,7 @@ namespace MethodOverloading
             Console.WriteLine(sum);
             var sumDouble = Add(1.5, 2.5);
             Console.WriteLine(sumDouble);
-            Add(1, 2, true);
+            Add(0, 1, true);
 
 
         }
@@ -32,7 +32,7 @@ namespace MethodOverloading
 
             if (isTrue == true && sum == 1)
             {
-                Console.WriteLine($"{sum} dollars");
+                Console.WriteLine($"{sum} dollar");
             }
             else if (isTrue == true && sum > 1)
             {
